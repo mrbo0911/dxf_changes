@@ -1,0 +1,2 @@
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup_1.0.19.msi
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup.wixpdb

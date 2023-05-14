@@ -1,0 +1,13 @@
+D:\Projects\Inno\QuanLyDat\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Debug\Setup_1.0.0.msi
+D:\Projects\Inno\QuanLyDat\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Debug\Setup.wixpdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Debug\Setup.wixpdb
+obj\Debug\UserRegSimpleDlg.wixobj
+obj\Debug\InvalidInfoDlg.wixobj
+obj\Debug\UserRegDlg.wixobj
+obj\Debug\Product.wixobj
+obj\Debug\WixInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\WixInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\WixInstaller.wixproj.BindBuiltOutputsFileListnull.txt
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Debug\Setup_1.0.19.msi
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Debug\Setup_1.0.19.msi
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Debug\Setup.wixpdb

@@ -1,0 +1,15 @@
+E:\GitLab\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup_1.0.13.msi
+E:\GitLab\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup.wixpdb
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup_1.0.13.msi
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup.wixpdb
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup_1.0.13.msi
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup.wixpdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup_1.0.19.msi
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\WixInstaller\bin\Release\Setup.wixpdb
+obj\Release\UserRegSimpleDlg.wixobj
+obj\Release\InvalidInfoDlg.wixobj
+obj\Release\UserRegDlg.wixobj
+obj\Release\Product.wixobj
+obj\Release\WixInstaller.wixproj.BindContentsFileListnull.txt
+obj\Release\WixInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Release\WixInstaller.wixproj.BindBuiltOutputsFileListnull.txt

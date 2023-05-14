@@ -1,0 +1,47 @@
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.CA.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.pdb
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.xml
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.xml
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CoreCompileInputs.cache
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CopyComplete
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.pdb
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.AssemblyReference.cache
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.CA.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.pdb
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.xml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.xml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.AssemblyReference.cache
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CoreCompileInputs.cache
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.pdb
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CopyComplete
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.CA.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.pdb
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.xml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.xml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.AssemblyReference.cache
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CoreCompileInputs.cache
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.CA.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\CustomActions.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Newtonsoft.Json.xml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Release\Microsoft.Deployment.WindowsInstaller.xml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.AssemblyReference.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CoreCompileInputs.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.csproj.CopyComplete
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Release\CustomActions.pdb

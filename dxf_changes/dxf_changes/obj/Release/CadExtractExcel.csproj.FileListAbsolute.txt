@@ -1,0 +1,165 @@
+E:\GitLab\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll.config
+E:\GitLab\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.pdb
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.cache
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.lref
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.baml
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.g.resources
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.Operation.DlgProgress.resources
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.GenerateResource.cache
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CoreCompileInputs.cache
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CopyComplete
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.pdb
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll.config
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.pdb
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.AssemblyReference.cache
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.cache
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.lref
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.baml
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.g.resources
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.Operation.DlgProgress.resources
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.GenerateResource.cache
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CoreCompileInputs.cache
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CopyComplete
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.dll
+E:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.pdb
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll.config
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.pdb
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.cache
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.lref
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.baml
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.g.resources
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.Operation.DlgProgress.resources
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.GenerateResource.cache
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CoreCompileInputs.cache
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.dll
+D:\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.pdb
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll.config
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.pdb
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\GeneratedInternalTypeHelper.g.cs
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.cache
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.lref
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.baml
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.g.resources
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.Operation.DlgProgress.resources
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.GenerateResource.cache
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CoreCompileInputs.cache
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.dll
+G:\Work\GitLab\HatSoft\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll.config
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\2018\CadExtractExcel.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SearchWindow.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingExportView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SettingProjectView.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel_MarkupCompile.lref
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\CreationView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\HistoryExportView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\InputNameView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\MainWindowView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\ScanView.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\SetItem.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\UI\View\WarningDeleteZone.baml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.g.resources
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.Operation.DlgProgress.resources
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.GenerateResource.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CoreCompileInputs.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.CopyComplete
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CadExtractExcel\obj\Release\CadExtractExcel.csproj.AssemblyReference.cache

@@ -1,0 +1,36 @@
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.CA.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.pdb
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Newtonsoft.Json.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Newtonsoft.Json.xml
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.AssemblyReference.cache
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.CoreCompileInputs.cache
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.CopyComplete
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.dll
+E:\GitLab\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.CA.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.pdb
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.AssemblyReference.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.CoreCompileInputs.cache
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.CopyComplete
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.dll
+D:\Projects\Inno\QuanLyNhaThapTang\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.pdb
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.dll
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.CA.dll
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\CustomActions.pdb
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.dll
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Newtonsoft.Json.xml
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\bin\Debug\Microsoft.Deployment.WindowsInstaller.xml
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.AssemblyReference.cache
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.CoreCompileInputs.cache
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.csproj.CopyComplete
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.dll
+D:\Projects\Freelancer\Jose Miguel Soto\RenameLayer\Product Source\cad-extract-info\CadExtractExcel\CustomActions\obj\x86\Debug\CustomActions.pdb

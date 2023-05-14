@@ -1,0 +1,21 @@
+..\..\Lib\Microsoft.WindowsAPICodePack.dll
+..\..\Lib\Microsoft.WindowsAPICodePack.Shell.dll
+..\2018\CadExtractExcel.dll
+..\..\Lib\EntityFramework.dll
+HATSoftware_CPR.cuix
+templates\XR_loainha.dwg
+templates\XR_maugocdientich.dwg
+templates\XR_maugoct1.dwg
+templates\XR_maunhadientich.dwg
+templates\XR_maunhat1.dwg
+..\..\Lib\DocumentFormat.OpenXml.dll
+PackageContents.xml
+templates\XR_phankhu.dwg
+templates\XR_sonha.dwg
+..\..\Lib\SQLite.Interop.dll
+..\..\Lib\SQLiteProjectManagement.db
+..\..\Lib\System.Data.SQLite.dll
+..\..\Lib\System.Data.SQLite.EF6.dll
+templates\TEMPLATE THAP TANG.rar
+templates\XR_tenlo.dwg
+templates\XR_tuyen.dwg
