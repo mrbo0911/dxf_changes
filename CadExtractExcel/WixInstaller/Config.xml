@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <license_server>
+    <address>http://localhost:8083</address>
+  </license_server>
+</configuration>

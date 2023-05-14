@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="AutoCAD" Name="Export cad data to excel" Description="AutoCAD Plugin to export cad data to excel" AppVersion="1.0.0" FriendlyVersion="1.0.0" ProductType="Application" HelpFile="./Contents/Help.html" SupportedLocales="Enu" AppNameSpace="appstore.exchange.autodesk.com" OnlineDocumentation="https://hatsoft.vn" Author="HAT Software" ProductCode="{42A0CC74-0241-417C-A838-003999E1B71B}" UpgradeCode="{C9E07991-18D7-46A4-A6F7-19F1AC98DB7B}" Icon="./Contents/Resources/appicon.ico">
+  <CompanyDetails Name="HAT Software" Url="https://hatsoft.vn" Email="info@hatsoft.vn" Phone=" " />
+  <Components Description="2020 - 2025">
+    <RuntimeRequirements SupportPath="./Contents" OS="Win64" Platform="AutoCAD*" SeriesMin="R19.1" SeriesMax="R24.0" />
+    <ComponentEntry AppName="Commutation Panels and Racks" Version="1.0.0" ModuleName="./Contents/DLL/CadExtractExcel.dll" AppDescription="Export cad data to excel" LoadOnAppearance="True" LoadOnAutoCADStartup="True" LoadOnCommandInvocation="False">
+      <Commands>
+        <Command Local="ExportExcel" Global="ExportExcel" />
+      </Commands>
+    </ComponentEntry>
+    <ComponentEntry AppName="Export cad data to excel" Version="1.0.0" ModuleName="./Contents/HATSoftware_CPR.cuix" AppDescription="Export cad data to excel" LoadOnAppearance="False" LoadOnAutoCADStartup="True" />
+  </Components>
+</ApplicationPackage>

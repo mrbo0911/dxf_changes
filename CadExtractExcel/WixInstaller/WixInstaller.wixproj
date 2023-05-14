@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" InitialTargets="EnsureWixToolsetInstalled" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>3.10</ProductVersion>
+    <ProjectGuid>eaf15602-aa25-47ee-9ed8-40b441fa8e44</ProjectGuid>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputName>Setup</OutputName>
+    <OutputType>Package</OutputType>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <DefineConstants>Debug</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WixVariables>Build=$(Configuration)</WixVariables>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="UserRegSimpleDlg.wxs" />
+    <Compile Include="InvalidInfoDlg.wxs" />
+    <Compile Include="UserRegDlg.wxs" />
+    <Compile Include="Product.wxs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WixExtension Include="WixUIExtension">
+      <HintPath>$(WixExtDir)\WixUIExtension.dll</HintPath>
+      <Name>WixUIExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixUtilExtension">
+      <HintPath>$(WixExtDir)\WixUtilExtension.dll</HintPath>
+      <Name>WixUtilExtension</Name>
+    </WixExtension>
+    <WixExtension Include="WixIIsExtension">
+      <HintPath>$(WixExtDir)\WixIIsExtension.dll</HintPath>
+      <Name>WixIIsExtension</Name>
+    </WixExtension>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.xml" />
+    <Content Include="HATSoftware_CPR.cuix" />
+    <Content Include="images\banner.bmp" />
+    <Content Include="images\Exclam.ico" />
+    <Content Include="License.rtf" />
+    <Content Include="PackageContents.xml" />
+    <Content Include="README.txt" />
+    <Content Include="templates\abc.txt" />
+    <Content Include="templates\TEMPLATE THAP TANG.rar" />
+    <Content Include="templates\XR_loainha.dwg" />
+    <Content Include="templates\XR_maugocdientich.dwg" />
+    <Content Include="templates\XR_maugoct1.dwg" />
+    <Content Include="templates\XR_maunhadientich.dwg" />
+    <Content Include="templates\XR_maunhat1.dwg" />
+    <Content Include="templates\XR_phankhu.dwg" />
+    <Content Include="templates\XR_sonha.dwg" />
+    <Content Include="templates\XR_tenlo.dwg" />
+    <Content Include="templates\XR_tuyen.dwg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images" />
+    <Folder Include="templates" />
+  </ItemGroup>
+  <Import Project="$(WixTargetsPath)" Condition=" '$(WixTargetsPath)' != '' " />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets" Condition=" '$(WixTargetsPath)' == '' AND Exists('$(MSBuildExtensionsPath32)\Microsoft\WiX\v3.x\Wix.targets') " />
+  <Target Name="EnsureWixToolsetInstalled" Condition=" '$(WixTargetsImported)' != 'true' ">
+    <Error Text="The WiX Toolset v3.11 (or newer) build tools must be installed to build this project. To download the WiX Toolset, see http://wixtoolset.org/releases/" />
+  </Target>
+  <PropertyGroup>
+    <PostBuildEvent>xcopy  "$(ProjectDir)Config.xml" "$(ProjectDir)$(OutDir)" /Y</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DefineConstants>Debug</DefineConstants>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <WixVariables>Build=$(Configuration)</WixVariables>
+    <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
+    <IntermediateOutputPath>obj\$(Platform)\$(Configuration)\</IntermediateOutputPath>
+  </PropertyGroup>
+  <!--
+	To modify your build process, add your task inside one of the targets below and uncomment it.
+	Other similar extension points exist, see Wix.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+  <!--
+  <Target Name="AfterBuild">
+    <GetAssemblyIdentity AssemblyFiles="..\inno-revit-tools\bin\$(Configuration)\RevitTools.dll">
+      <Output TaskParameter="Assemblies" ItemName="FileVersion" />
+    </GetAssemblyIdentity>
+
+    <Copy SourceFiles=".\bin\$(Configuration)\$(OutputName).msi" DestinationFiles=".\bin\$(Configuration)\Setup.%(FileVersion.Version).msi" />
+    <Delete Files=".\bin\$(Configuration)\$(OutputName).msi" />
+  </Target>
+-->
+  <!--
+  <Target Name="BeforeBuild">
+    <GetAssemblyIdentity AssemblyFiles="..\inno-revit-tools\bin\$(Configuration)\RevitTools.dll">
+      <Output TaskParameter="Assemblies" ItemName="AssemblyVersions" />
+    </GetAssemblyIdentity>
+    <CreateProperty Value="$(OutputName)_%(AssemblyVersions.Version)">
+      <Output TaskParameter="Value" PropertyName="TargetName" />
+    </CreateProperty>
+    <CreateProperty Value="$(TargetName)$(TargetExt)">
+      <Output TaskParameter="Value" PropertyName="TargetFileName" />
+    </CreateProperty>
+    <CreateProperty Value="$(TargetDir)$(TargetFileName)">
+      <Output TaskParameter="Value" PropertyName="TargetPath" />
+    </CreateProperty>
+  </Target>
+-->
+  <Target Name="BeforeBuild">
+    <GetAssemblyIdentity AssemblyFiles="..\2018\CadExtractExcel.dll">
+      <Output TaskParameter="Assemblies" ItemName="AssemblyVersions" />
+    </GetAssemblyIdentity>
+    <CreateProperty Value="%(AssemblyVersions.Version)">
+      <Output TaskParameter="Value" PropertyName="AssyVersion" />
+    </CreateProperty>
+    <CreateProperty Value="$(AssyVersion.Split('.')[0]).$(AssyVersion.Split('.')[1]).$(AssyVersion.Split('.')[2])">
+      <Output TaskParameter="Value" PropertyName="ShortAssyVersion" />
+    </CreateProperty>
+    <CreateProperty Value="$(DefineConstants);LongAssyVersion=$(AssyVersion)">
+      <Output TaskParameter="Value" PropertyName="DefineConstants" />
+    </CreateProperty>
+    <CreateProperty Value="$(DefineConstants);ShortAssyVersion=$(ShortAssyVersion)">
+      <Output TaskParameter="Value" PropertyName="DefineConstants" />
+    </CreateProperty>
+    <CreateProperty Value="$(OutputName)_$(ShortAssyVersion)">
+      <Output TaskParameter="Value" PropertyName="TargetName" />
+    </CreateProperty>
+  </Target>
+</Project>

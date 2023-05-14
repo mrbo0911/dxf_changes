@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+   xmlns:iis="http://schemas.microsoft.com/wix/IIsExtension"
+   xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+
+  <?define ProductVersion="!(bind.FileVersion.FILE_Cad2ExcelDll)"?>
+
+  <Product Id="*"
+			 Name="AutoCAD tools $(var.ProductVersion)"
+			 Language="1033"
+			 Version="$(var.ProductVersion)"
+			 Manufacturer="INNO Company, JSC"
+			 UpgradeCode="{B3360DB0-9A9D-4BD7-968A-730B38B8B6F5}">
+
+    <Package Id="*" InstallerVersion="301" Compressed="yes" Description="AutoCAD tools $(var.ProductVersion) Installer" />
+    <Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+
+    <MajorUpgrade
+      Schedule="afterInstallInitialize"
+      DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit." />
+
+    <WixVariable Id="WixUILicenseRtf" Value="License.rtf" />
+    <WixVariable Id="WixUIBannerBmp" Value="images\banner.bmp" />
+
+    <Binary Id="CustomActions" SourceFile="..\CustomActions\bin\$(var.Configuration)\CustomActions.CA.dll" />
+    <CustomAction Id="ValidateClientSide" BinaryKey="CustomActions" DllEntry="ValidateClientSide" />
+    <CustomAction Id="ValidateProductCode" BinaryKey="CustomActions" DllEntry="ValidateProductCode" />
+    <CustomAction Id="UpdateUserInfo" BinaryKey="CustomActions" DllEntry="UpdateUserInfo" />
+    <CustomAction Id="UninstallService" BinaryKey="CustomActions" DllEntry="UninstallService" />
+    <CustomAction Id="UpdatePatch" BinaryKey="CustomActions" DllEntry="UpdatePatch" />
+    <CustomAction Id="RemovePatch" BinaryKey="CustomActions" DllEntry="RemovePatch" />
+    <CustomAction Id="ReadProductCode" BinaryKey="CustomActions" DllEntry="ReadProductCode" />
+
+    <UI Id="InnoWixUI_Mondo">
+      <UIRef Id="WixUI_Mondo" />
+
+      <DialogRef Id="InvalidInfoDlg" />
+
+      <!--
+	  <DialogRef Id="UserRegistrationDlg" />
+
+	  <Publish Dialog="LicenseAgreementDlg" Control="Next" Event="NewDialog" Value="UserRegistrationDlg" Order="2">LicenseAccepted = "1"</Publish>
+
+	  <Publish Dialog="LicenseAgreementDlg" Control="Next" Event="DoAction" Value="ReadProductCode">LicenseAccepted = "1"</Publish>
+	  -->
+
+      <!--
+	  <Publish Dialog="LicenseAgreementDlg" Control="Next" Event="NewDialog" Value="UserRegistrationDlg" Order="2">READ_PRODUCT_CODE_FLAG = "1"</Publish>
+
+	  <Publish Dialog="SetupTypeDlg" Control="Back" Event="NewDialog" Value="UserRegistrationDlg">1</Publish>
+	  -->
+
+      <Publish Dialog="LicenseAgreementDlg" Control="Next" Event="NewDialog" Value="UserRegistrationSimpleDlg" Order="2">1</Publish>
+      <Publish Dialog="SetupTypeDlg" Control="Back" Event="NewDialog" Value="UserRegistrationSimpleDlg">1</Publish>
+    </UI>
+    <UIRef Id="WixUI_ErrorProgressText" />
+
+    <Property Id="PIDTemplate"><![CDATA[<####-####-####-####>]]></Property>
+    <Property Id="XMLCONFIG">Config.xml</Property>
+    <Property Id="PUBLIC_IP" Value=" " />
+
+    <Binary Id="Exclam.ico" SourceFile="images\Exclam.ico" />
+
+    <InstallExecuteSequence>
+      <!--
+	  <Custom Action="UpdateUserInfo" After="InstallFinalize">NOT Installed</Custom>
+	  <Custom Action="UninstallService" After="InstallInitialize">(NOT UPGRADINGPRODUCTCODE) AND (REMOVE="ALL")</Custom>
+
+	  <Custom Action="UpdatePatch" After="InstallFinalize">Installed AND PATCH</Custom>
+
+	  <Custom Action="UpdatePatch" Before="WriteRegistryValues">Installed AND PATCH</Custom>
+
+	  <Custom Action="RemovePatch" Before="WriteRegistryValues">(NOT UPGRADINGPRODUCTCODE) AND (REMOVE="ALL")</Custom>
+	  -->
+    </InstallExecuteSequence>
+
+    <Property Id="ALLUSERS" Value="1" />
+    <Property Id="ERROR_MSG_FLAG" Value="0" />
+    <Property Id="ERROR_MSG" Value="0" />
+    <Property Id="READ_PRODUCT_CODE_FLAG" Value="0" />
+    <Property Id="REVIT_VERSION" Value="2019" />
+
+    <!--
+	<Condition Message="A newer version of [ProductName] is already installed. Exitting installation.">
+	  <![CDATA[Installed OR NOT NEWER_VERSION_FOUND]]>
+	</Condition>
+	-->
+
+    <!--Directory structure-->
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="CommonAppDataFolder">
+        <Directory Id="Autodesk" Name="Autodesk">
+          <Directory Id="ApplicationPlugins" Name="ApplicationPlugins">
+            <Directory Id="HATSoftware_cad2excel.bundle" Name="HATSoftware_cad2excel.bundle">
+              <Directory Id="Contents" Name="Contents">
+                <Directory Id="DLL" Name="DLL"></Directory>
+                <Directory Id="Resources" Name="Resources"></Directory>
+              </Directory>
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <!--Components-->
+    <DirectoryRef Id="HATSoftware_cad2excel.bundle">
+      <Component Id="CMP_PackageContents" Guid="{7BBA5658-85A1-4741-BDD7-7F607DD04069}">
+        <File Id="FILE_PackageContents"
+            Source="PackageContents.xml"
+            KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <DirectoryRef Id="Contents">
+      <Component Id="CMP_HATSoftCuix" Guid="{A25DEEC4-D8D4-4569-8F34-B0BC461F921F}">
+        <File Id="FILE_HATSoftCuix"
+              Source="HATSoftware_CPR.cuix"
+              KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_SQLiteProjectManagementDB" Guid="{051F75B7-C3D2-423F-BD39-C71F3BB53D36}">
+        <File Id="FILE_SQLiteProjectManagementDB"
+          Source="..\..\Lib\SQLiteProjectManagement.db"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_TemplateThapTang" Guid="{8CE0816A-8C49-4426-9FD0-7FD51DF6D5C2}">
+        <File Id="FILE_TemplateThapTang"
+          Source="templates\TEMPLATE THAP TANG.rar"
+          KeyPath="yes">
+        </File>
+      </Component>
+      <Component Id="CMP_PK" Guid="{A3FE50A9-B6C6-4F9F-9D15-33936DC3B335}">
+        <File Id="FILE_PK"
+          Source="templates\XR_phankhu.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_Tuyen" Guid="{5DB8275B-7313-465D-B9B6-59FEA7BB3A87}">
+        <File Id="FILE_Tuyen"
+          Source="templates\XR_tuyen.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_LoaiNha" Guid="{F00E6266-1C0D-47D5-AE01-BFD060CA4F43}">
+        <File Id="FILE_LoaiNha"
+          Source="templates\XR_loainha.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_MauGocT1" Guid="{CF21CD52-95F8-4987-B4E3-4123E8B7F21A}">
+        <File Id="FILE_MauGocT1"
+          Source="templates\XR_maugoct1.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_MauGocDienTich" Guid="{85FC8D58-13E7-4B1A-8FF5-1B49BEE413AF}">
+        <File Id="FILE_MauGocDienTich"
+          Source="templates\XR_maugocdientich.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_MauNhaT1" Guid="{C49441FA-A4AB-4BC5-AB44-DB32D3B19081}">
+        <File Id="FILE_MauNhaT1"
+          Source="templates\XR_maunhat1.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_MauNhaDienTich" Guid="{633CE671-BFA2-4BAA-951D-2CD841381950}">
+        <File Id="FILE_MauNhaDienTich"
+          Source="templates\XR_maunhadientich.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_SoNha" Guid="{21B5FDB3-24DE-4CA6-ACE4-C6396E12F4A0}">
+        <File Id="FILE_SoNha"
+          Source="templates\XR_sonha.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+      <Component Id="CMP_TenLo" Guid="{92561BE7-4ECC-4F2B-B64C-B6E950E7C4B5}">
+        <File Id="FILE_TenLo"
+          Source="templates\XR_tenlo.dwg"
+          KeyPath="yes">
+          <util:PermissionEx User="Users" GenericAll="yes" />
+        </File>
+      </Component>
+    </DirectoryRef>
+
+    <DirectoryRef Id="DLL">
+      <Component Id="CMP_Cad2ExcelDll" Guid="{0A88EBE7-9386-401B-8E36-D789F0962745}">
+        <File Id="FILE_Cad2ExcelDll"
+          Source="..\2018\CadExtractExcel.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_OpenXMLDll" Guid="{1945F0D1-BAAF-416D-AB31-A9F867DAB7A0}">
+        <File Id="FILE_OpenXMLDll"
+          Source="..\..\Lib\DocumentFormat.OpenXml.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_APICodePackDll" Guid="{50C8CD00-A5DC-4329-B54E-3CE96E1F3061}">
+        <File Id="FILE_APICodePackDll"
+          Source="..\..\Lib\Microsoft.WindowsAPICodePack.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_APICodePackShellDll" Guid="{C66B26BD-ECBE-4338-8ADB-91515F90C2F7}">
+        <File Id="FILE_APICodePackShellDll"
+          Source="..\..\Lib\Microsoft.WindowsAPICodePack.Shell.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_EntityFrameworkDll" Guid="{6677984C-B64E-41A7-8939-6EA75D675187}">
+        <File Id="FILE_EntityFrameworkDll"
+          Source="..\..\Lib\EntityFramework.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_SQLiteInteropDll" Guid="{7CC83BC5-CC72-4131-A630-5148E202DAED}">
+        <File Id="FILE_SQLiteInteropDll"
+          Source="..\..\Lib\SQLite.Interop.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_SystemDataSQLiteDll" Guid="{C5F5805C-FC70-4794-85EA-3829D8E47E93}">
+        <File Id="FILE_SystemDataSQLiteDll"
+          Source="..\..\Lib\System.Data.SQLite.dll"
+          KeyPath="yes" />
+      </Component>
+      <Component Id="CMP_SystemDataSQLiteEF6Dll" Guid="{1A15827F-0256-42E2-ACB1-B9E69EFA0279}">
+        <File Id="FILE_SystemDataSQLiteEF6Dll"
+          Source="..\..\Lib\System.Data.SQLite.EF6.dll"
+          KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+
+    <!-- register registry values -->
+
+    <DirectoryRef Id="HATSoftware_cad2excel.bundle">
+      <Component Id="CMP_WriteToRegistry"
+           Guid="{348045A0-DDAE-4275-BDC4-BACD41D85EB7}">
+        <RegistryKey Root="HKCU"
+               Key="Software\InnoAutoCADTools\2018">
+          <RegistryValue Type="string" Name="ProductCode" Value="[PIDKEY]" KeyPath="yes" />
+          <RegistryValue Type="string" Name="PublicIP" Value="[PUBLIC_IP]" />
+        </RegistryKey>
+      </Component>
+    </DirectoryRef>
+
+    <!--Features-->
+    <Feature Id="ProductFeature"
+         Title="Main Product"
+         Level="1">
+      <ComponentRef Id="CMP_PackageContents" />
+      <ComponentRef Id="CMP_HATSoftCuix" />
+      <ComponentRef Id="CMP_SQLiteProjectManagementDB" />
+      <ComponentRef Id="CMP_TemplateThapTang" />
+      <ComponentRef Id="CMP_Tuyen" />
+      <ComponentRef Id="CMP_PK" />
+      <ComponentRef Id="CMP_LoaiNha" />
+      <ComponentRef Id="CMP_MauGocT1" />
+      <ComponentRef Id="CMP_MauGocDienTich" />
+      <ComponentRef Id="CMP_MauNhaT1" />
+      <ComponentRef Id="CMP_MauNhaDienTich" />
+      <ComponentRef Id="CMP_SoNha" />
+      <ComponentRef Id="CMP_TenLo" />
+      <ComponentRef Id="CMP_Cad2ExcelDll" />
+      <ComponentRef Id="CMP_OpenXMLDll" />
+      <ComponentRef Id="CMP_APICodePackDll" />
+      <ComponentRef Id="CMP_APICodePackShellDll" />
+      <ComponentRef Id="CMP_EntityFrameworkDll" />
+      <ComponentRef Id="CMP_SQLiteInteropDll" />
+      <ComponentRef Id="CMP_SystemDataSQLiteDll" />
+      <ComponentRef Id="CMP_SystemDataSQLiteEF6Dll" />
+
+      <!-- registry values -->
+      <ComponentRef Id="CMP_WriteToRegistry" />
+    </Feature>
+  </Product>
+</Wix>
